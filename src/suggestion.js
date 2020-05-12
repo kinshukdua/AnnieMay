@@ -18,7 +18,15 @@ class Suggestion extends React.Component
         var img_src;
         if (window.innerHeight/window.innerWidth < 1)
         {
-            img_src  = anime.coverImage.large;
+            if (anime.coverImage == null)
+            {
+                img_src = anime.posterImage.small;
+            }
+            else
+            {
+                img_src  = anime.coverImage.large;
+            }
+         
         }
         else
         {
