@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AnnieMay/static/css/main.212e407b.chunk.css",
+    "main.js": "/AnnieMay/static/js/main.a2d8a13f.chunk.js",
+    "main.js.map": "/AnnieMay/static/js/main.a2d8a13f.chunk.js.map",
+    "runtime-main.js": "/AnnieMay/static/js/runtime-main.ee1264ed.js",
+    "runtime-main.js.map": "/AnnieMay/static/js/runtime-main.ee1264ed.js.map",
+    "static/css/2.7ad897a5.chunk.css": "/AnnieMay/static/css/2.7ad897a5.chunk.css",
+    "static/js/2.676087fa.chunk.js": "/AnnieMay/static/js/2.676087fa.chunk.js",
+    "static/js/2.676087fa.chunk.js.map": "/AnnieMay/static/js/2.676087fa.chunk.js.map",
+    "index.html": "/AnnieMay/index.html",
+    "precache-manifest.8d65183eb27ad974a18a3f84fe902ba7.js": "/AnnieMay/precache-manifest.8d65183eb27ad974a18a3f84fe902ba7.js",
+    "service-worker.js": "/AnnieMay/service-worker.js",
+    "static/css/2.7ad897a5.chunk.css.map": "/AnnieMay/static/css/2.7ad897a5.chunk.css.map",
+    "static/css/main.212e407b.chunk.css.map": "/AnnieMay/static/css/main.212e407b.chunk.css.map",
+    "static/js/2.676087fa.chunk.js.LICENSE.txt": "/AnnieMay/static/js/2.676087fa.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/AnnieMay/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee1264ed.js",
+    "static/css/2.7ad897a5.chunk.css",
+    "static/js/2.676087fa.chunk.js",
+    "static/css/main.212e407b.chunk.css",
+    "static/js/main.a2d8a13f.chunk.js"
+  ]
+}
