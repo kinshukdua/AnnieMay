@@ -74,7 +74,7 @@ class App extends React.Component {
           </Navbar>
           
           <div className='align-item-center' style = {{display: 'block', textAlign:"center"}}>
-            <Card border = 'info' style={{ margin:'25px', width: 'fit-content'}} 
+            <Card border = 'danger' style={{ margin:'25px', width: 'fit-content'}} 
               className='shadow-lg p-3 mb-5 bg-white rounded mx-auto'>
             <Card.Body>
               <Card.Title style = {{fontSize: "45px"}}>{data[this.state.id].text}</Card.Title>
