@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/AnnieMay/static/css/main.212e407b.chunk.css",
-    "main.js": "/AnnieMay/static/js/main.a2d8a13f.chunk.js",
-    "main.js.map": "/AnnieMay/static/js/main.a2d8a13f.chunk.js.map",
-    "runtime-main.js": "/AnnieMay/static/js/runtime-main.ee1264ed.js",
-    "runtime-main.js.map": "/AnnieMay/static/js/runtime-main.ee1264ed.js.map",
+    "main.css": "/AnnieMay/static/css/main.e743ba1d.chunk.css",
+    "main.js": "/AnnieMay/static/js/main.0f4f1577.chunk.js",
+    "main.js.map": "/AnnieMay/static/js/main.0f4f1577.chunk.js.map",
+    "runtime-main.js": "/AnnieMay/static/js/runtime-main.28997c5b.js",
+    "runtime-main.js.map": "/AnnieMay/static/js/runtime-main.28997c5b.js.map",
     "static/css/2.7ad897a5.chunk.css": "/AnnieMay/static/css/2.7ad897a5.chunk.css",
-    "static/js/2.676087fa.chunk.js": "/AnnieMay/static/js/2.676087fa.chunk.js",
-    "static/js/2.676087fa.chunk.js.map": "/AnnieMay/static/js/2.676087fa.chunk.js.map",
+    "static/js/2.5ff4b1c3.chunk.js": "/AnnieMay/static/js/2.5ff4b1c3.chunk.js",
+    "static/js/2.5ff4b1c3.chunk.js.map": "/AnnieMay/static/js/2.5ff4b1c3.chunk.js.map",
     "index.html": "/AnnieMay/index.html",
-    "precache-manifest.8d65183eb27ad974a18a3f84fe902ba7.js": "/AnnieMay/precache-manifest.8d65183eb27ad974a18a3f84fe902ba7.js",
+    "precache-manifest.4a3988c306b3f43f99c633a5ea7f000b.js": "/AnnieMay/precache-manifest.4a3988c306b3f43f99c633a5ea7f000b.js",
     "service-worker.js": "/AnnieMay/service-worker.js",
     "static/css/2.7ad897a5.chunk.css.map": "/AnnieMay/static/css/2.7ad897a5.chunk.css.map",
-    "static/css/main.212e407b.chunk.css.map": "/AnnieMay/static/css/main.212e407b.chunk.css.map",
-    "static/js/2.676087fa.chunk.js.LICENSE.txt": "/AnnieMay/static/js/2.676087fa.chunk.js.LICENSE.txt",
+    "static/css/main.e743ba1d.chunk.css.map": "/AnnieMay/static/css/main.e743ba1d.chunk.css.map",
+    "static/js/2.5ff4b1c3.chunk.js.LICENSE.txt": "/AnnieMay/static/js/2.5ff4b1c3.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/AnnieMay/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee1264ed.js",
+    "static/js/runtime-main.28997c5b.js",
     "static/css/2.7ad897a5.chunk.css",
-    "static/js/2.676087fa.chunk.js",
-    "static/css/main.212e407b.chunk.css",
-    "static/js/main.a2d8a13f.chunk.js"
+    "static/js/2.5ff4b1c3.chunk.js",
+    "static/css/main.e743ba1d.chunk.css",
+    "static/js/main.0f4f1577.chunk.js"
   ]
 }
