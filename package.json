@@ -1,4 +1,5 @@
 {
+  "homepage":"https://kinshukdua.github.io/AnnieMay/",
   "name": "first",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deplot": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
