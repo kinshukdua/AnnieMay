@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/AnnieMay/static/css/main.5476061e.chunk.css",
-    "main.js": "/AnnieMay/static/js/main.3632c678.chunk.js",
-    "main.js.map": "/AnnieMay/static/js/main.3632c678.chunk.js.map",
+    "main.css": "/AnnieMay/static/css/main.af02905a.chunk.css",
+    "main.js": "/AnnieMay/static/js/main.9bc0e721.chunk.js",
+    "main.js.map": "/AnnieMay/static/js/main.9bc0e721.chunk.js.map",
     "runtime-main.js": "/AnnieMay/static/js/runtime-main.28997c5b.js",
     "runtime-main.js.map": "/AnnieMay/static/js/runtime-main.28997c5b.js.map",
     "static/css/2.7ad897a5.chunk.css": "/AnnieMay/static/css/2.7ad897a5.chunk.css",
-    "static/js/2.458c1c76.chunk.js": "/AnnieMay/static/js/2.458c1c76.chunk.js",
-    "static/js/2.458c1c76.chunk.js.map": "/AnnieMay/static/js/2.458c1c76.chunk.js.map",
+    "static/js/2.c6aec28f.chunk.js": "/AnnieMay/static/js/2.c6aec28f.chunk.js",
+    "static/js/2.c6aec28f.chunk.js.map": "/AnnieMay/static/js/2.c6aec28f.chunk.js.map",
     "index.html": "/AnnieMay/index.html",
-    "precache-manifest.f86acd96f01128659058cf1b270fae0c.js": "/AnnieMay/precache-manifest.f86acd96f01128659058cf1b270fae0c.js",
+    "precache-manifest.8f9dbe03ad8c1f1c1dc90f306205b496.js": "/AnnieMay/precache-manifest.8f9dbe03ad8c1f1c1dc90f306205b496.js",
     "service-worker.js": "/AnnieMay/service-worker.js",
     "static/css/2.7ad897a5.chunk.css.map": "/AnnieMay/static/css/2.7ad897a5.chunk.css.map",
-    "static/css/main.5476061e.chunk.css.map": "/AnnieMay/static/css/main.5476061e.chunk.css.map",
-    "static/js/2.458c1c76.chunk.js.LICENSE.txt": "/AnnieMay/static/js/2.458c1c76.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/AnnieMay/static/media/background.d21270da.jpg",
-    "static/media/logo.svg": "/AnnieMay/static/media/logo.ee7cd8ed.svg"
+    "static/css/main.af02905a.chunk.css.map": "/AnnieMay/static/css/main.af02905a.chunk.css.map",
+    "static/js/2.c6aec28f.chunk.js.LICENSE.txt": "/AnnieMay/static/js/2.c6aec28f.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/AnnieMay/static/media/background.d21270da.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.28997c5b.js",
     "static/css/2.7ad897a5.chunk.css",
-    "static/js/2.458c1c76.chunk.js",
-    "static/css/main.5476061e.chunk.css",
-    "static/js/main.3632c678.chunk.js"
+    "static/js/2.c6aec28f.chunk.js",
+    "static/css/main.af02905a.chunk.css",
+    "static/js/main.9bc0e721.chunk.js"
   ]
 }
