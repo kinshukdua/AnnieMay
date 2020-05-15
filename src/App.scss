@@ -1,7 +1,20 @@
 
+#background {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("background.jpg");
+  display: flex;              /* establish flex container */
+  flex-direction: column;     /* stack flex items vertically */
+  justify-content: center;    /* center items vertically, in this case */
+  align-items: center;        /* center items horizontally, in this case */
+  position: center;
+}
+
 .q_container
 {
   color: #444;
+  max-width: 90%;
   width: fit-content;
   padding-top: 4vh;
   padding-bottom: 4vh;
@@ -16,13 +29,19 @@
 
 #question
 {
-  font-size: calc(14px + 1.5vw);
+  font-size: calc(14px + 1.6vw);
+}
+
+#q_no
+{
+  font-size: 1em;
+  color: rgb(69, 69, 69);
 }
 
 .option
 {
   color: #4e4e4e;
-  font-size: calc(10px + 1vw);
+  font-size: calc(15px + 1vw);
   width: 100%;
   padding: 10px 10px;
   border-radius: 10px;
@@ -45,4 +64,21 @@
 
 .option:hover { 
   transform: scale(1.1);
+}
+
+.result-container
+{
+  max-width: 80%;
+  max-height: 100%;
+  color: white;
+  width: fit-content;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: -3px 0 68px -4px rgba(0,0,0,1);
+  background-color: rgba(0, 0, 0, 0.2);
+
 }

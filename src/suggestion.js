@@ -6,7 +6,9 @@ class Suggestion extends React.Component
     constructor(props)
     {
         super(props);
+        
         this.state = {"desc":null,"img_src":null,"loaded":false, "title":null, width: window.innerWidth};
+        this.loaddata(this.props.name);
     }
     async loaddata(name)
     {
@@ -20,44 +22,40 @@ class Suggestion extends React.Component
         {
             if (anime.coverImage == null)
             {
-                img_src = anime.posterImage.small;
+                img_src = anime.posterImage.original;
             }
             else
             {
-                img_src  = anime.coverImage.large;
+                img_src  = anime.coverImage.original;
             }
          
         }
         else
         {
-            img_src = anime.posterImage.small;
+            img_src = anime.posterImage.original;
         }
         
         const desc = anime.synopsis;
         const title = anime.titles.en;
         const jp_title = anime.titles.en_jp + ' | ' + anime.titles.ja_jp
         this.setState({"desc":desc,"img_src":img_src,"loaded":true,"title":title, "jp_title":jp_title});
+        this.props.new_img(this.state.img_src);
+        
                 
     }
 
     render()
-    {
-        this.loaddata(this.props.name)
-        if (this.state.loaded == true)
+    {   
+        if (this.state.loaded === true)
         {
         return (
-        <div>
-        <Card style = {{width:'25 rem',margin: '20px'}}>
-        <Card.Img variant="top" src={this.state.img_src} />
-        <Card.Body>
-        <Card.Title>{this.state.title}</Card.Title>
+        <div className='result-container'>
+        <h1>{this.state.title}</h1>
         <hr />
-        <Card.Subtitle className="mb-2 text-muted">{this.state.jp_title}</Card.Subtitle>
-            <Card.Text>
+        <h2 className="mb-2 text-muted">{this.state.jp_title}</h2>
+            <p>
                 {this.state.desc}
-            </Card.Text>
-        </Card.Body>
-        </Card>
+            </p>
         </div>
         );
         }

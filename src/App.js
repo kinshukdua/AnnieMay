@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import Background from './background.jpg'
 import './App.scss';
-import Card from 'react-bootstrap/Card';
-import button from 'react-bootstrap/button';
+
 import data from './data';
 import Suggestion from './suggestion'
-import Navbar from 'react-bootstrap/Navbar'
+
 class App extends React.Component {
   constructor(props)
   {
@@ -14,10 +13,16 @@ class App extends React.Component {
       "id":0,
       "q_no":1,
       "que":true,
-      "prev_id":null
+      "prev_id":null,
+      "img_src":Background
     };
   }
 
+  handleBackground(new_src)
+  {
+    console.log(123);
+    this.setState({"img_src":new_src});
+  }
 
   handleClick(new_id)
   {
@@ -40,6 +45,7 @@ class App extends React.Component {
 
   render()
   {
+    
     var back_avail;
     var reset_avail = !this.state.id ? "none" : "inline-block"; 
     if (this.state.prev_id == null)
@@ -64,10 +70,11 @@ class App extends React.Component {
       }
         
         return (
-        <div className='q_container'> 
+        <div id = 'background' style = {{backgroundImage: "url("+ this.state.img_src+")"}}>
+          <div className='q_container'> 
               <h1 id ="question">{data[this.state.id].text}</h1>
               <hr />
-              <p>Question no. {this.state.q_no}</p>
+              <h2 id="q_no">Question no. {this.state.q_no}</h2>
               <div  className="btn-container">
                 {list_of_buttons}
               </div>
@@ -80,12 +87,18 @@ class App extends React.Component {
               style = {{display:reset_avail,float: "right"}}>
                 <i class="fas fa-undo fa-2x"></i>
               </button>
+         </div>
         </div>
+        
         );
     }
     else
     {
-      return (<Suggestion name={data[data[this.state.id].children[0]].text} />);
+      return (
+      <div id = 'background' style = {{backgroundImage: "url("+ this.state.img_src+")"}}>
+        <Suggestion name={data[data[this.state.id].children[0]].text} new_img={this.handleBackground.bind(this)} />
+      </div>
+      );
     } 
   }
 }
