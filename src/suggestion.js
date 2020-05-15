@@ -1,6 +1,5 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-
+import './suggestion.css'
 class Suggestion extends React.Component
 {
     constructor(props)
@@ -32,7 +31,7 @@ class Suggestion extends React.Component
         }
         else
         {
-            img_src = anime.posterImage.original;
+            img_src = anime.posterImage.small;
         }
         
         const desc = anime.synopsis;
@@ -52,8 +51,8 @@ class Suggestion extends React.Component
         <div className='result-container'>
         <h1>{this.state.title}</h1>
         <hr />
-        <h2 className="mb-2 text-muted">{this.state.jp_title}</h2>
-            <p>
+        <h2 id="subname">{this.state.jp_title}</h2>
+            <p style={{textOverflow:'ellipsis'}}>
                 {this.state.desc}
             </p>
         </div>
